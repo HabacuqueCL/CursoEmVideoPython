@@ -1,5 +1,0 @@
-print('Crie um programa que escreva "Olá, Mundo!" na tela')
-nome = input('Qual o seu nome?')
-idade = int(input('Qual a sua idade?'))
-peso = int(input('Qual o seu peso?'))
-print('Olá',nome,'a sua idade é',idade,'e o seu peso é',peso)
