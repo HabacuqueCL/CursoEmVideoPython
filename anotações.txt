@@ -1,0 +1,19 @@
+ - As variacões do comando .is"Alguma coisa" servem para verificar se todos os caracteres dentro de uma string são o que foi definido para retornar.
+    Ex: a = input('Digite algo: ')
+        print('O tipo primitivo desse valor é ', type(a))
+        print('Só tem espaços? ', a.isspace())
+        print('Só é número? ', a.isnumeric())
+        print('É alfabético? ', a.isalpha())
+        print('É alfanumérico? ', a.isalnum())
+        print('Está em maiúsculas? ', a.isupper())
+        print('Está em minúsculas? ', a.islower())
+        print('Está capitalizada? ', a.istitle())
+
+    OBS: Existem outros tipos de metodos .is link:https://www.w3schools.com/python/python_ref_string.asp
+  
+ - Toda função input que não é definido o tipo primitivo vai retornar uma string.
+    Ex: a = input('Digite algo: ') 
+        print('O tipo primitivo desse valor é ', type(a)) #type(a) retorna o tipo primitivo do dado digitado.
+        
+        Digite algo: 3
+        O tipo primitivo desse valor é  <class 'str'>
