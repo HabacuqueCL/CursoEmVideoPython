@@ -1,9 +1,9 @@
 #Crie um programa que leia dois números e mostre a soma entre eles.
 
-#num1 = int(input('Digite um número: '))
-#num2 = int(input('Digite outro número: '))
-#soma = num1 + num2
-#print('A soma dos números é: {}'.format(soma))
+num1 = int(input('Digite um número: '))
+num2 = int(input('Digite outro número: '))
+soma = num1 + num2
+print('A soma dos números é: {}'.format(soma))
 
 #Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
 
