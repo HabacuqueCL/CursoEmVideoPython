@@ -11,13 +11,13 @@
 #raizQuadrada = valor**(1/2)
 #print('O dobro de {} é: {}'.format(valor, dobro))
 #print('O trplo de {} é: {}'.format(valor, triplo))
-#print('A raiz quadrada de {} é: {}'.format(valor, raizQuadrada))
+#print('A raiz quadrada de {} é: {:.2f}'.format(valor, raizQuadrada))
 
 #07 Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
-#nota1 = 7
-#nota2 = 4
-#media = (7+4)/2
-#print(media)
+nota1 = input('Digite a primeira nota: ')
+nota2 = input('Digite a segunda nota: ')
+media = (7+4)/2
+print('A média das notas {} e {} é: {}'.format(nota1,nota2,media))
 
 #08 Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros.
 #valor = float(input('Informe o valor em metros: '))
@@ -66,8 +66,8 @@
 
 #13 Faça um algoritmo que leia o salário de um funcionário e mostre o seu novo salário, com 15% de aumento.
 
-valSalario = int(input('Informe salário: '))
-valAdicional = int(input('Informe % à adicionar: '))
-calcAumento = (valSalario/100)*valAdicional+valSalario
-print('Salário informado: R${}\n Porcentagem de aumento: {}\n Salário final: {}'.format(valSalario,valAdicional,calcAumento))
+#valSalario = int(input('Informe salário: '))
+#valAdicional = int(input('Informe % à adicionar: '))
+#calcAumento = (valSalario/100)*valAdicional+valSalario
+#print('Salário informado: R${}\n Porcentagem de aumento: {}\n Salário final: {}'.format(valSalario,valAdicional,calcAumento))
 
