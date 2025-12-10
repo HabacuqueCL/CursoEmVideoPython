@@ -74,15 +74,26 @@
 
 #12 Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
 
-valorProduto = float(input('Informe o valor do produto: '))
-informarDesc = float(input('Informe o desconto a ser aplicado: '))
-calculoDesc = valorProduto-(valorProduto*informarDesc/100)
-print('Valor inicial do produto: R${}\n Valor de desconto aplicado: {}%\n Valor final do produto: R${:.2f}'.format(valorProduto, informarDesc,calculoDesc))
+#valorProduto = float(input('Informe o valor do produto: '))
+#informarDesc = float(input('Informe o desconto a ser aplicado: '))
+#calculoDesc = valorProduto-(valorProduto*informarDesc/100)
+#print('Valor inicial do produto: R${}\n Valor de desconto aplicado: {}%\n Valor final do produto: R${:.2f}'.format(valorProduto, informarDesc,calculoDesc))
 
 #13 Faça um algoritmo que leia o salário de um funcionário e mostre o seu novo salário, com 15% de aumento.
 
-#valSalario = int(input('Informe salário: '))
-#valAdicional = int(input('Informe % à adicionar: '))
-#calcAumento = (valSalario/100)*valAdicional+valSalario
-#print('Salário informado: R${}\n Porcentagem de aumento: {}\n Salário final: {}'.format(valSalario,valAdicional,calcAumento))
+#valSalario = float(input('Informe salário: '))
+#valAdicional = float(input('Informe % à adicionar: '))
+#calcAumento = valSalario+(valSalario*valAdicional/100)
+#print('Salário informado: R${:.2f}\n Porcentagem de aumento: {}%\n Salário final: {:.2f}'.format(valSalario,valAdicional,calcAumento))
+
+#Exercicio extra
+# Faça um algoritmo que laia o valor de um produto e mostre na tela quanto vai ficar esse valor com um desconto de 10% para pagamento a vista e 8% de aumento no valor para pagamento parcelado.
+#valorProduto = float(input('Informe o valor do produto: '))
+#calcAVista = valorProduto-(valorProduto*10/100)
+#calcParcelado = valorProduto+(valorProduto*8/100)
+
+#print('O valor do produto à vista com desconto de 10%'+' fica: {}'.format(calcAVista))
+#print('O valor do produto parcelado com aumento de 8%'+' fica: {}'.format(calcParcelado))
+#print('1x de R${:.2f}\n2x de R${:.2f}\n3x de R${:.2f}\n4x de R${:.2f}\n5x de R${:.2f}\n6x de R${:.2f}\n7x de R${:.2f}\n8x de R${:.2f}\n9x de R${:.2f}\n10x de R${:.2f}\n11x de R${:.2f}\n12x de R${:.2f}'.format(calcParcelado/1, calcParcelado/2, calcParcelado/3, calcParcelado/4, calcParcelado/5, calcParcelado/6, calcParcelado/7, calcParcelado/8, calcParcelado/9, calcParcelado/10, calcParcelado/11, calcParcelado/12))
+
 
