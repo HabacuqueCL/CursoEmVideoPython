@@ -7,21 +7,20 @@
 #milhar: 1
 
 #Identificando como string
-#num1 = input('Digite um número de 0 a 9999: ')
-#joinNum = ' '.join(num1)
-#splitNum = joinNum.split()
-#print('Unidade: {}'.format(splitNum[3]))
-#print('Dezena: {}'.format(splitNum[2]))
-#print('Centena: {}'.format(splitNum[1]))
-#print('Milhar: {}'.format(splitNum[0]))
+n = input('Digite um número de 0 a 9999: ')
+s = '000' + n
+print('Unidade: {}'.format(s[-1]))
+print('Dezena: {}'.format(s[-2]))
+print('Centena: {}'.format(s[-3]))
+print('Milhar: {}'.format(s[-4]))
 
 #Identificando via calculo matemático
-num = int(input('Digite um número de 0 a 9999: '))
-unidade = num % 10
-dezena = (num // 10) % 10
-centena = (num // 100) % 10
-milhar = (num // 1000) % 10
-print('Unidade: {}'.format(unidade))
-print('Dezena: {}'.format(dezena))
-print('Centena: {}'.format(centena))
-print('Milhar: {}'.format(milhar))
+#num = int(input('Digite um número de 0 a 9999: '))
+#unidade = num % 10
+#dezena = (num // 10) % 10
+#centena = (num // 100) % 10
+#milhar = (num // 1000) % 10
+#print('Unidade: {}'.format(unidade))
+#print('Dezena: {}'.format(dezena))
+#print('Centena: {}'.format(centena))
+#print('Milhar: {}'.format(milhar))
