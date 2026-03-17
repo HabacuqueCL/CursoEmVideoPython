@@ -4,8 +4,10 @@
 #Quantas letras ao todo (Sem considerar espaços).
 #Quantas letras tem o primeiro nome."""
 
-nome = 'Habacuque Cavalcante Leal'
+nome = input('Digite o seu nome completo: ')
+retirarEspacos = nome.replace(' ','')
+dividir = nome.split()
 print('Seu nome em maiusculo: {}'.format(nome.upper()))
 print('Seu nome em minusculo: {}'.format(nome.lower()))
-dividir = nome.split()
-print('Quantas letras tem seu nome: {}'.format(dividir.len([0])))
+print('Seu nome possui {} letras no total.'.format(len(retirarEspacos)))
+print('Seu primeiro nome tem {} letras.'.format((len(dividir[0]))))
