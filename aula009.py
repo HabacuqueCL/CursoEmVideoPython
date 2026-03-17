@@ -1,5 +1,3 @@
-print("""Aqui o aluno terá um material organizado em parágrafos curtos e diálogos claros, facilitando o aprendizado desde o início. Os elementos principais da língua serão ensinados, tais como a parte gramatical e de vocabulário.""")
-
 #FATIANDO CARACTERES
 
 frase = 'Curso em Vídeo Python'
@@ -43,3 +41,5 @@ print(frase.split()) #Gera uma lista de todas as plavras dentro de uma cadeira d
 
 print('-'.join(frase)) #Coloca o traço entre cada letra de caractere de uma string
 print('-'.join(frase.split())) #O join nesse exemplo junta as palavras que foram separadas com split com o traço, no caso de só adicionar um espaco coloque as aspas com um espaço dentro delas ' '.
+
+print("""Aqui o aluno terá um material organizado em parágrafos curtos e diálogos claros, facilitando o aprendizado desde o início. Os elementos principais da língua serão ensinados, tais como a parte gramatical e de vocabulário.""")
