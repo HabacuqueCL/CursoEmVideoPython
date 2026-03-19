@@ -2,7 +2,9 @@
 
 nomeCidade = input('Digite o nome da sua cidade: ')
 palavra = 'SANTO'
-if palavra in nomeCidade:
+splitNomeCidade = nomeCidade.split()
+print(splitNomeCidade)
+if palavra in splitNomeCidade[0]:
     print('O nome da cidade começa com SANTO')
 else:
     print('O nome da cidade não começa com SANTO')
