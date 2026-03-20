@@ -17,7 +17,7 @@ print(frase.count('o')) #Conta quantas letras "o" menusculas aparecem na string.
 print(frase.count('o',0,13)) #Verifica quantos caracteres "o" existe entre a posição 0 á posição 13 Saída: 1
 print(frase.find('deo')) #Vai mostrar a posição em que começa o "deo" ou seja na posição 11
 print(frase.find('Android')) #Em casos que ele não encontra a string informada dentro da string da variável ele vai informar a posição -1
-print('Curso' in frase) #Verifica se a frase "Curso" existe na na string e retorna true se existir ou false se não existir diferente do find que informa a posição da string na frase.
+print('Curso' in frase) #Verifica se a frase "Curso" existe na string e retorna true se existir ou false se não existir diferente do find que informa a posição da string na frase.
 
 #TRANSFORMAÇÃO DE CARACTERES
 
