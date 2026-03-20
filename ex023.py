@@ -7,12 +7,12 @@
 #milhar: 1
 
 #Identificando como string
-n = input('Digite um número de 0 a 9999: ')
-s = '000' + n
-print('Unidade: {}'.format(s[-1]))
-print('Dezena: {}'.format(s[-2]))
-print('Centena: {}'.format(s[-3]))
-print('Milhar: {}'.format(s[-4]))
+num = input('Digite um número de 0 a 9999: ')
+somaNum = '000' + num
+print('Unidade: {}'.format(somaNum[-1]))
+print('Dezena: {}'.format(somaNum[-2]))
+print('Centena: {}'.format(somaNum[-3]))
+print('Milhar: {}'.format(somaNum[-4]))
 
 #Identificando via calculo matemático
 #num = int(input('Digite um número de 0 a 9999: '))
