@@ -1,9 +1,10 @@
 #Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem formar um triângulo ou não.
 
-n1 = input('Valor 1: ')
-n2 = input('Valor 2: ')
-n3 = input('Valor 3: ')
-if n1+n2>n3 and n1+n3>n2 and n2+n3>n1:
-    print('É possível formar um triângulo com as retas informadas.')
+n1 = int(input('Valor 1: '))
+n2 = int(input('Valor 2: '))
+n3 = int(input('Valor 3: '))
+maiorNum = max(n1,n2,n3)
+if (n1+n2+n3)-maiorNum>maiorNum:
+    print('É um triângulo.')
 else:
-    print('Não é possível formar um triângulo com as retas informadas.')
+    print('Não é um triângulo.')
