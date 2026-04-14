@@ -6,3 +6,13 @@ if distViagem<=200:
 else:
     print('Sua viagem foi maior que 200Km, será cobrado R$0,45 por Km rodado totalizando R${:.2f}'.format(float(distViagem*0.45)))
 print('Fim da execução.')
+
+
+#Reslução Guanabara
+#distancia = float(input('Qual é a distância da sua viagem: '))
+#print('Você está prestes a começar uma viagem de {}Km.'.format(distancia))
+#if distancia <=200:
+#    preco = distancia * 0.50
+#else:
+#    preco = distancia * 0.45
+#print('E o preço da sua viagem será de R${:.2f}.'.format(preco))
