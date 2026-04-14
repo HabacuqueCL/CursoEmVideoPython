@@ -5,3 +5,11 @@ if informeSalario > 1250:
     print('O seu salário teve um aumento de 10% totalizando {}.'.format(informeSalario + (informeSalario*10/100)))
 if informeSalario <= 1250:
     print('O seu salário teve um aumento de 15%. O valor ajustado é de {}.'.format(informeSalario + (informeSalario*15/100)))
+
+#Resolução Guanabara
+#salario = float(input('Qual é o salário do funcionário? R$ '))
+#if salario <= 1250:
+#    novo = salario + (salario*15/100)
+#else:
+#    novo = salario + (salario*10/100)
+#print('Quem ganhava {:.2f} passa a ganhar R${:.2f}'.format(salario, novo))
