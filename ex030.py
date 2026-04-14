@@ -6,3 +6,7 @@ if num % 2 == 0:
 else:
     print('O número é IMPAR.')
 print('Fim da execução.')
+
+
+#O resto da divisao de qualquer número par por 2 é 0.
+#O resto da divisão de qualquer número impar por 2 é 1.
