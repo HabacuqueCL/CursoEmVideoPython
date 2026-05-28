@@ -9,4 +9,4 @@ else:
     print('Seu nome é bem comum.')
 print('Tenha um bom dia, {}!'.format(nome))
 
-#Obs¹: Voce pode usar um IFs, vários ELIFs e um ELSE. Voce també pode ter um IFs, vários ELIFs e nenhum ELSE.
+#Obs¹: Voce pode usar um IF, vários ELIFs e um ELSE. Voce também pode ter um IF, vários ELIFs e nenhum ELSE.
